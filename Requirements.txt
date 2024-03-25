@@ -1,0 +1,7 @@
+pip install google-api-python-client
+pip install pymongo
+pip install psycopg2
+pip install pandas
+pip install plotly
+pip install streamlit
+pip install streamlit_option_menu
