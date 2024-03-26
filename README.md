@@ -86,8 +86,8 @@ pip install streamlit_option_menu
 To use this project, follow these steps:
 
 1.	Clone the repository: ```git clone https://github.com/iyappangithubacc/Youtube_project.git```
-2.	Install the required packages: ```pip install -r requiretpackages.txt```
-3.	Run the Streamlit app: ```streamlit run Youtubeproject.py```
+2.	Install the required packages: ```pip install -r Requirements.txt```
+3.	Run the Streamlit app: ```streamlit run Youtube_Project.py```
 4.	And access the web app in your browser at ```http://localhost:8501```
 
 **Contact:**
