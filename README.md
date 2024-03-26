@@ -19,19 +19,19 @@ pip install streamlit_option_menu
 
 **Tools and Libraries used:**
 
-1. **Python:**
+**1. Python:**
 
     Widely-used, high-level programming language known for simplicity, readability, extensive libraries, and versatility in web development, scientific computing, AI, and automation. Supports dynamic typing and automatic memory management.
 
-2. **YouTube API:**
+**2. YouTube API:**
 
     The YouTube API provides access to YouTube's vast data, allowing developers to fetch channel details, playlists, videos, and comments. With the `googleapiclient` library, interactions with Google APIs, YouTube are simplified, streamlining data retrieval for analysis and processing.
 
-**MongoDB:**
+**3. MongoDB:**
 
-  MongoDB is a widely used NoSQL database storing data in JSON format documents, prized for scalability and ease of use. `pymongo` is its Python driver, facilitating interaction with MongoDB databases, enabling seamless data storage and retrieval in Python applications.
+      MongoDB is a widely used NoSQL database storing data in JSON format documents, prized for scalability and ease of use. `pymongo` is its Python driver, facilitating interaction with MongoDB databases, enabling seamless data storage and retrieval in Python applications.
 
-**PostgreSQL:**
+**4. PostgreSQL:**
 
   PostgreSQL is a robust relational database management system, used alongside MongoDB in this project for structured data storage. `Psycopg2` acts as the Python adapter for PostgreSQL, enabling efficient communication and data exchange between Python applications and PostgreSQL databases.
 
