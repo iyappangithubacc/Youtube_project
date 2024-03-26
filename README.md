@@ -55,37 +55,31 @@ pip install streamlit_option_menu
 - Obtain API keys for YouTube data access and configure them in the script.
 - up MongoDB and PostgreSQL databases where the fetched data will be stored.
 
-2. **Data Retrieval from YouTube:**
+**2. Data Retrieval from YouTube:**
 
--	Use the provided functions to fetch data from YouTube, such as channel details, playlist details, video details, and comments for each video.
+- Use the provided functions to fetch data from YouTube, such as channel details, playlist details, video details, and comments for each video.
+- This involves making API calls to the YouTube API using the `googleapiclient` library and processing the responses to extract relevant information.
 
--	This involves making API calls to the YouTube API using the `googleapiclient` library and processing the responses to extract relevant information.
+**3. Data Storage in MongoDB:**
 
-3. **Data Storage in MongoDB:**
+- Store the fetched data into MongoDB collections. This includes channel details, playlists, videos, and comments.
+- The `pymongo` library is used to interact with MongoDB, where data is organized into collections.
 
--	Store the fetched data into MongoDB collections. This includes channel details, playlists, videos, and comments.
+**4. Data Processing and Storage in PostgreSQL:**
 
--	The `pymongo` library is used to interact with MongoDB, where data is organized into collections.
+- Process the fetched data and organize it into suitable formats for SQL tables.
+- Utilize the `psycopg2` library to establish a connection to the PostgreSQL database and create tables for storing channel details, playlist details, video details, and comments.
+- Insert the processed data into the corresponding SQL tables.
 
-4. **Data Processing and Storage in PostgreSQL:**
+**5. User Interface Development:**
 
--	Process the fetched data and organize it into suitable formats for SQL tables.
+- Develop a user interface using `streamlit` to interact with the data stored in the databases.
+- This may include features like displaying channel details, playlists, videos, comments, etc., in a user-friendly format.
 
--	Utilize the `psycopg2` library to establish a connection to the PostgreSQL database and create tables for storing channel details, playlist details, video details, and comments.
+**6. Data Analysis and Visualization:**
 
--	Insert the processed data into the corresponding SQL tables.
-
-5. **User Interface Development:**
-
--	Develop a user interface using `streamlit` to interact with the data stored in the databases.
-
--	This may include features like displaying channel details, playlists, videos, comments, etc., in a user-friendly format.
-
-6. **Data Analysis and Visualization:**
-
--	After storing the data in databases, perform any necessary data analysis or visualization using tools like `pandas`, `plotly`, etc.
-
--	Generate insights or visualize trends based on the retrieved YouTube data.
+- After storing the data in databases, perform any necessary data analysis or visualization using tools like `pandas`, `plotly`, etc.
+- Generate insights or visualize trends based on the retrieved YouTube data.
 
 **How To Use:**
 
