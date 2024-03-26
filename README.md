@@ -49,7 +49,7 @@ pip install streamlit_option_menu
 
 **Project Workflow:**
 
-**1. Initialization and Setup:**
+1. **Initialization and Setup:**
 
 -	Install necessary Python libraries/modules like googleapiclient, pymongo, psycopg2, streamlit, pandas, plotly etc.
 
@@ -57,19 +57,19 @@ pip install streamlit_option_menu
 
 -	Set up MongoDB and PostgreSQL databases where the fetched data will be stored.
 
-**2. Data Retrieval from YouTube:**
+2. **Data Retrieval from YouTube:**
 
 -	Use the provided functions to fetch data from YouTube, such as channel details, playlist details, video details, and comments for each video.
 
 -	This involves making API calls to the YouTube API using the `googleapiclient` library and processing the responses to extract relevant information.
 
-**3. Data Storage in MongoDB:**
+3. **Data Storage in MongoDB:**
 
 -	Store the fetched data into MongoDB collections. This includes channel details, playlists, videos, and comments.
 
 -	The `pymongo` library is used to interact with MongoDB, where data is organized into collections.
 
-**4. Data Processing and Storage in PostgreSQL:**
+4. **Data Processing and Storage in PostgreSQL:**
 
 -	Process the fetched data and organize it into suitable formats for SQL tables.
 
@@ -77,13 +77,13 @@ pip install streamlit_option_menu
 
 -	Insert the processed data into the corresponding SQL tables.
 
-**5. User Interface Development:**
+5. **User Interface Development:**
 
 -	Develop a user interface using `streamlit` to interact with the data stored in the databases.
 
 -	This may include features like displaying channel details, playlists, videos, comments, etc., in a user-friendly format.
 
-**6. Data Analysis and Visualization:**
+6. **Data Analysis and Visualization:**
 
 -	After storing the data in databases, perform any necessary data analysis or visualization using tools like `pandas`, `plotly`, etc.
 
