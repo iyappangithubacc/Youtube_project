@@ -94,7 +94,7 @@ To use this project, follow these steps:
 
 **E-mail:** iyappandots@gmail.com
 
-**Linkein:** http://www.linkedin.com/in/iyappandots 
+**Linkedin:** http://www.linkedin.com/in/iyappandots 
 
 
 
