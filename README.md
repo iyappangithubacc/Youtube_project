@@ -49,12 +49,13 @@ pip install streamlit_option_menu
 
 **Project Workflow:**
 
-1. **Initialization and Setup:**
-        - Install necessary Python libraries/modules like googleapiclient, pymongo, psycopg2, streamlit, pandas, plotly etc.
-        - Obtain API keys for YouTube data access and configure them in the script.
-        - up MongoDB and PostgreSQL databases where the fetched data will be stored.
+**1. Initialization and Setup:**
 
-3. **Data Retrieval from YouTube:**
+- Install necessary Python libraries/modules like googleapiclient, pymongo, psycopg2, streamlit, pandas, plotly etc.
+- Obtain API keys for YouTube data access and configure them in the script.
+- up MongoDB and PostgreSQL databases where the fetched data will be stored.
+
+2. **Data Retrieval from YouTube:**
 
 -	Use the provided functions to fetch data from YouTube, such as channel details, playlist details, video details, and comments for each video.
 
