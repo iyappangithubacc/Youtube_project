@@ -19,33 +19,33 @@ pip install streamlit_option_menu
 
 **Tools and Libraries used:**
 
-**1. Python:**
+1. **Python:**
 
     Widely-used, high-level programming language known for simplicity, readability, extensive libraries, and versatility in web development, scientific computing, AI, and automation. Supports dynamic typing and automatic memory management.
 
-**2. YouTube API:**
+2. **YouTube API:**
 
     The YouTube API provides access to YouTube's vast data, allowing developers to fetch channel details, playlists, videos, and comments. With the `googleapiclient` library, interactions with Google APIs, YouTube are simplified, streamlining data retrieval for analysis and processing.
 
-**3. MongoDB:**
+3. **MongoDB:**
 
       MongoDB is a widely used NoSQL database storing data in JSON format documents, prized for scalability and ease of use. `pymongo` is its Python driver, facilitating interaction with MongoDB databases, enabling seamless data storage and retrieval in Python applications.
 
-**4. PostgreSQL:**
+4. **PostgreSQL:**
 
-  PostgreSQL is a robust relational database management system, used alongside MongoDB in this project for structured data storage. `Psycopg2` acts as the Python adapter for PostgreSQL, enabling efficient communication and data exchange between Python applications and PostgreSQL databases.
+      PostgreSQL is a robust relational database management system, used alongside MongoDB in this project for structured data storage. `Psycopg2` acts as the Python adapter for PostgreSQL, enabling efficient communication and data exchange between Python applications and PostgreSQL databases.
 
-**Pandas:**
+5. **Pandas:**
 
-  Pandas is a powerful data manipulation and analysis library for Python. It provides data structures and functions for efficiently handling structured data, such as tabular data from databases.
+      Pandas is a powerful data manipulation and analysis library for Python. It provides data structures and functions for efficiently handling structured data, such as tabular data from databases.
 
-**Plotly:**
+6. **Plotly:**
 
-  Plotly is a graphing library for Python that provides interactive and publication-quality plots. It offers various types of charts and visualizations for data exploration and presentation.
+      Plotly is a graphing library for Python that provides interactive and publication-quality plots. It offers various types of charts and visualizations for data exploration and presentation.
 
-**Streamlit:**
+7. **Streamlit:**
 
-  Streamlit is an open-source Python library for building web applications and interactive data dashboards with minimal code. It simplifies the process of creating and sharing data-driven applications, allowing users to focus on data analysis and visualization without needing expertise in web development.
+      Streamlit is an open-source Python library for building web applications and interactive data dashboards with minimal code. It simplifies the process of creating and sharing data-driven applications, allowing users to focus on data analysis and visualization without needing expertise in web development.
 
 **Project Workflow:**
 
