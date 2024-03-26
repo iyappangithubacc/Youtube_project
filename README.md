@@ -19,13 +19,13 @@ pip install streamlit_option_menu
 
 **Tools and Libraries used:**
 
-- **Python:**
+**Python:**
 
-Widely-used, high-level programming language known for simplicity, readability, extensive libraries, and versatility in web development, scientific computing, AI, and automation. Supports dynamic typing and automatic memory management.
+  Widely-used, high-level programming language known for simplicity, readability, extensive libraries, and versatility in web development, scientific computing, AI, and automation. Supports dynamic typing and automatic memory management.
 
-- **YouTube API:**
+**YouTube API:**
 
-The YouTube API provides access to YouTube's vast data, allowing developers to fetch channel details, playlists, videos, and comments. With the `googleapiclient` library, interactions with Google APIs, YouTube are simplified, streamlining data retrieval for analysis and processing.
+  The YouTube API provides access to YouTube's vast data, allowing developers to fetch channel details, playlists, videos, and comments. With the `googleapiclient` library, interactions with Google APIs, YouTube are simplified, streamlining data retrieval for analysis and processing.
 
 **MongoDB:**
 
