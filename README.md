@@ -23,9 +23,9 @@ pip install streamlit_option_menu
 
 **YouTube API:** The YouTube API provides access to YouTube's vast data, allowing developers to fetch channel details, playlists, videos, and comments. With the `googleapiclient` library, interactions with Google APIs, YouTube are simplified, streamlining data retrieval for analysis and processing.
 
-**MongoDB:** MongoDB is a widely used NoSQL database storing data in JSON format documents, prized for scalability and ease of use. pymongo is its Python driver, facilitating interaction with MongoDB databases, enabling seamless data storage and retrieval in Python applications.
+**MongoDB:** MongoDB is a widely used NoSQL database storing data in JSON format documents, prized for scalability and ease of use. `pymongo` is its Python driver, facilitating interaction with MongoDB databases, enabling seamless data storage and retrieval in Python applications.
 
-**PostgreSQL:** PostgreSQL is a robust relational database management system, used alongside MongoDB in this project for structured data storage. Psycopg2 acts as the Python adapter for PostgreSQL, enabling efficient communication and data exchange between Python applications and PostgreSQL databases.
+**PostgreSQL:** PostgreSQL is a robust relational database management system, used alongside MongoDB in this project for structured data storage. `Psycopg2` acts as the Python adapter for PostgreSQL, enabling efficient communication and data exchange between Python applications and PostgreSQL databases.
 
 **Pandas:** Pandas is a powerful data manipulation and analysis library for Python. It provides data structures and functions for efficiently handling structured data, such as tabular data from databases.
 
